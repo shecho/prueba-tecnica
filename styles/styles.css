@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-container {
+    padding: 30px;
+    background-color: rgba(0, 0, 0,.9);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    /* border: dashed 2px white; */
+  }
+  .menu {
+    /* background-color: rgba(0, 0, 0,.9); */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border: dashed 2px blue;
+    align-content: center;
+
+  }
+
+  .menu > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: dashed 2px red;
+    text-align:center;
+    padding: 5px 10px;
+  }
+  .menu a {
+    color: #fff;
+  }
+  .menu li {
+    padding: 15px;
+    border: dashed 1px green;
+  }
+  
+  .logo-container{
+      padding: 5px;
+      margin: 5px;
+      text-transform: capitalize;
+  }
+
+/* THIS IS JUST A TRY  */
