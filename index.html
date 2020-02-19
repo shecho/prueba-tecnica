@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- styles -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -15,24 +17,25 @@
 
 
   </head>
+
   <body>
     <header class="menu-container" id="menu-navegacion">
-        <nav class="menu" id="menu">
-           <div class="logo-container"> <i class="logo-nav"> logo</i></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Slider</a></li>
-                <li><a href="#">Description</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Mapa</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav class="menu" id="menu">
+        <div class="logo-container"> <i class="logo-nav"> logo</i></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Slider</a></li>
+          <li><a href="#">Description</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Mapa</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
 
     </header>
     <main>
       <section class="slider mt-5 d-flex justify-content-center">
-        <div class="col-md-8 " >
+        <div class="col-md-8 ">
           <h1 class="text-center">Slider de Imagenes</h1>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -62,29 +65,37 @@
           </div>
 
         </div>
-       
-         <!-- slider -->
+
+        <!-- slider -->
 
       </section>
 
-      <section id="description" class="m-5">
-    <div class="row">
-      
-    
-           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam? Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias repellat eligendi?</p>
-          </div>      
-             
-      
-           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam? Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias repellat eligendi?</p>
-          </div>      
-             
-       
-           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam? Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias repellat eligendi?</p>
-          </div>      
-             
+      <section id="description" class="m-5 bg-dark text-white ">
+
+        <h2 class="text-center my-5">Descripción</h2>
+        <div class="row m-5">
+
+
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
+              Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
+              repellat eligendi?</p>
+          </div>
+
+
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
+              Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
+              repellat eligendi?</p>
+          </div>
+
+
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
+              Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
+              repellat eligendi?</p>
+          </div>
+
         </div>
         <article class="descrip">
 
@@ -92,35 +103,49 @@
       </section>
 
 
-      <section id="video">
-        <article class="video1">
+      <section id="video" class="col-md-10 text m-auto" >
+        <article class="video1 my-5">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+              allowfullscreen></iframe>
+         </div>
 
 
         </article>
 
-        <article class="video2">
+        <article class="video2 my-5">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
 
 
         </article>
       </section>
-        
+
       <section id="map">
-        
+
 
       </section>
 
-          
+
     </main>
     <footer>
-      
+
 
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script src="scripts/index.js"></script>
   </body>
+
 </html>
