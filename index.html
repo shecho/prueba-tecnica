@@ -26,17 +26,82 @@
       <nav class="menu" id="menu">
         <div class="logo-container"> <i class="logo-nav"> logo</i></div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Slider</a></li>
-          <li><a href="#">Description</a></li>
-          <li><a href="#">Videos</a></li>
-          <li><a href="#">Mapa</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#" class="btn btn-outline-primary">Home</a></li>
+          <li><a href="#" class="btn btn-outline-primary">Slider</a></li>
+          <li><a href="#" class="btn btn-outline-primary">Description</a></li>
+          <li><a href="#" class="btn btn-outline-primary">Videos</a></li>
+          <li><a href="#" class="btn btn-outline-primary">Mapa</a></li>
+          <li>
+            <a href="#">
+              <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#Modal" data-whatever="@mdo">Contacto
+                
+              </button>
+
+          </a>
+                 
+          </li>
         </ul>
       </nav>
 
     </header>
     <main>
+      <!-- modal -->
+            
+      <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Nuevo mensaje</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Nombre" class="col-form-label">Nombre:</label>
+                  <input placeholder="Nombre completo" required type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="Correo" class="col-form-label">Correo:</label>
+                  <input placeholder="Correo Electrónico" required type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="Mensaje" class="col-form-label">Mensaje:</label>
+                  <textarea placeholder="Escribe tu mensaje" required class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <input id="send-button" type="submit" class="btn btn-primary">
+<br>
+              <div class="container form-group text-center" id="pintarMensaje">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+      <!-- modal -->
+
+
       <section class="slider mt-5 d-flex justify-content-center">
         <div class="col-md-10 ">
           <h1 class="text-center">Slider de Imagenes</h1>
@@ -75,25 +140,25 @@
 
       <section id="description" class="m-5 bg-dark text-white ">
 
-        <h2 class="text-center my-5">Descripción</h2>
+        <h2 class="text-center pt-4">Descripción</h2>
         <div class="row m-5">
 
 
-          <div class="col-md-4">
+          <div class="col-md-4 pb-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
               Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
               repellat eligendi?</p>
           </div>
 
 
-          <div class="col-md-4">
+          <div class="col-md-4 pb-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
               Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
               repellat eligendi?</p>
           </div>
 
 
-          <div class="col-md-4">
+          <div class="col-md-4 pb-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam est dolorum id quisquam?
               Praesentium minima ipsa non cupiditate necessitatibus, ipsum laboriosam earum velit nisi libero illo alias
               repellat eligendi?</p>

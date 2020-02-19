@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  border: dashed 2px blue;
+  /* border: dashed 2px blue; */
   align-content: center;
 
 }
@@ -39,18 +39,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: dashed 2px red;
+  /* border: dashed 2px red; */
   text-align: center;
   padding: 5px 10px;
 }
 
 .menu a {
   color: #fff;
+  border-radius: 15px;
 }
 
 .menu li {
   padding: 15px;
-  border: dashed 1px green;
+  /* border: dashed 1px green; */
 }
 
 .logo-container {

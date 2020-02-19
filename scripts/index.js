@@ -14,5 +14,20 @@
     });
 
 }
+/* mesaje de enviado del form */
+const enviar = () => {
+  
+  mostrartexto= document.getElementById("pintarMensaje").innerHTML=`
+   <div class="alert alert-success alert-dismissible fade show" role="alert">
+  Mensaje enviado
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button> 
+    `
+  
+}
+
+let send= document.getElementById('send-button').addEventListener("click",enviar)
+
 initMap()
   
