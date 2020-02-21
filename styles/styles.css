@@ -89,10 +89,10 @@ body {
   margin: 0px 7px;
 }
 
-/* .redes-sociales .fa-facebook-f {
+.redes-sociales .fa-facebook-f {
   padding-left: 20px;
   padding-right: 20px;
-} */
+}
 
 .facebook:hover i {
   background-color: #fff;
