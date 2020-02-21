@@ -15,12 +15,14 @@ body {
 .menu-container {
   position: relative;
   top: 0;
-  padding: 15px;
+  padding: 5px;
   background-color: rgba(0, 0, 0, .7);
   font-size: 1.2rem;
   font-weight: bold;
   color: #fff;
   position: fixed;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   z-index: 99;
   /* border: dashed 2px white; */
@@ -79,18 +81,18 @@ body {
 
 
 .redes-sociales i {
-  padding: 20px;
+  padding: 15px;
   border-radius: 50%;
   border: solid 1px #FFF;
-  font-size: 18px;
+  font-size: 30px;
   color: #FFF;
   margin: 0px 7px;
 }
 
-.redes-sociales .fa-facebook-f {
-  padding-left: 23px;
-  padding-right: 23px;
-}
+/* .redes-sociales .fa-facebook-f {
+  padding-left: 20px;
+  padding-right: 20px;
+} */
 
 .facebook:hover i {
   background-color: #fff;
